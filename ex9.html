@@ -1,0 +1,26 @@
+<script>
+  document.write("Programa de pedido de lanchonete");  
+  let codigo = parseInt(prompt("Digite o código referente ao lanche."));
+  let quantidade = parseFloat(prompt("Digite a quantidade."));
+  document.write("<br>");
+  switch (codigo) {
+    case 1 : totalItem = (6.25 * quantidade);
+	    document.write(quantidade + " dogão simples = + totalItem);
+      break;
+	case 2 : totalItem = (7.10 * quantidade);
+	    document.write(quantidade + " dogão duplo = " + totalItem);
+	  break;
+	case 3 : totalItem = ( 11 * quantidade);
+	    document.write (quantidade + " x Salada = " + totalItem);
+	  break; 
+	case 4 : totalItem = ( 12.50 * quantidade); 
+	    document.write ( quantidade + " x Egg = " + totalItem);
+	  break 
+	case 5 : totalItem = ( 14 * quantidade ); 
+	    document. write ( quantidade + " x bacon = " + totalItem);
+	  break 
+	 default 
+	
+  }
+  </script> 
+  
